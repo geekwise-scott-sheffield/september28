@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:95vh;
+    width:100%;
+}
+
+.headers{
+    text-align:center;
+    float:center;
+}
+
+.divs{
+    text-align:center;
+    border:5px solid steelblue;
+    margin:12%;
+    width:75%;
+    height:100%;
+}
+
+#box_1:after{
+    content:'<-------margin------->';
+}
+
+#box_2:after{
+    content:'<-------border------->';
+}
+
+#box_3:after{
+    content:'<-------padding------->';
+}
+
+#box_3:before{
+    content:'<-------width------->';
+}
